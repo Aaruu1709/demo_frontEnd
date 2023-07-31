@@ -1,0 +1,135 @@
+
+<!--             ............................for front end demooo.............
+     Task is to create a home page for a recruitment startup. 
+    This portal will be used by companies in India and worldwide for Hiring software engineers,
+     Product Managers, Data Scientist etc. Please have a look at the 2-3 features from the below mentioned 
+     reference website and develop it for the demo purpose. You have to make one page (home screen) for the frontend and 2-3 featuers  for the backend.
+      You don't need to make a whole website. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruitment Startup - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+
+
+    <nav>
+        <div class="logo">Recruitment Startup</div>
+        <ul class="nav-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+       
+    </div>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our Recruitment Startup</h1>
+            <p>We connect companies with top-notch software engineers, product managers, data scientists, and more.</p>
+             <style>
+  .btn-default {
+      background: #ea8007;
+      color: hsla(0, 71%, 4%, 0.856);
+   }
+  .btn-default:hover {
+      background: #e8b548;
+      color: #000;
+   }
+  </style>
+
+
+  <button type="button" class="btn btn-default">
+    <a href="indexxxx.html">Explore services</a>
+  </button>
+</div>
+
+
+            
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2><hr>
+        <div class="services-grid">
+            <div class="service">
+                <img src="softwaredevloper.jpg" alt="Service 1">
+                <h3>Software Engineers</h3>
+                <p>We help you find skilled software engineers to build your dream projects.</p>
+            </div>
+            <div class="service">
+                <img src="ProductMgmt.jpg" alt="Service 2">
+                <h3>Product Managers</h3>
+                <p>Experienced product managers to lead your products from concept to launch.</p>
+            </div>
+            <div class="service">
+                <img src="data_science.png" alt="Service 3">
+                <h3>Data Scientists</h3>
+                <p>Unlock the potential of data with talented data scientists.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>Testimonials</h2><hr>
+        <div class="testimonial">
+            <img src="yadhu_manoharan.jpg" alt="Client 1">
+            <p>"The recruitment process was smooth, and we found the perfect fit for our team."</p>
+            <span>- John Doe, CEO at ABC Tech</span>
+        </div>
+        <div class="testimonial">
+            <img src="santosh_nain.jpeg" alt="Client 2">
+            <p>"Highly impressed by the quality of candidates presented. Excellent service!"</p>
+            <span>- Jane Smith, HR Manager at XYZ Inc.</span>
+        </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2><hr>
+        <p>Have a question or want to learn more about our services? Contact us below:</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <!-- <button type="submit">Send Message</button> -->
+             <button onclick="myFuction()">Done</button>  <br>         
+             
+
+
+            <button onclick="myFunction()">Send Message</button>
+
+          <p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  if (confirm("successfully Submitted........... !")) {
+    txt = "You pressed OK..submitted!";
+  } else {
+    txt = "You pressed Cancel!...not submitted";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+        </form>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Recruitment Startup. All rights reserved.</p>
+    </footer>
+    <script>alert("message send succesfully....!!!");
+    </script>
+</body>
+</html>
