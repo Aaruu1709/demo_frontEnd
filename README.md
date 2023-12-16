@@ -1,4 +1,4 @@
-# demo_frontEnd
+# demo_frontEnd(only design for practice)
 create a simple front end web page only. By using HTML, CSS and JavaScript.
 #output
 ![homepage](https://github.com/Aaruu1709/demo_frontEnd/assets/102209037/78fb3a66-9347-49d6-ab73-4e872c29299a)
